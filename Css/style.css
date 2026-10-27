@@ -1,0 +1,57 @@
+
+/* common css Start here  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+/* common css End here  */
+
+/* heading part start here */
+#headerpart{
+    padding: 48px 0px;
+    width: 100%;
+    background: #393E46;
+}
+.container{
+    width: 1236px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.header ul li a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: popping, sans-serif;
+    transition: 0.3s;
+}
+.header ul li a:hover {
+    color: #FF6B2C;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    font-family:Oswald , sans-serif;
+    line-height: auto;
+}
+/* heading part start here */
