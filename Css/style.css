@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 a {
@@ -32,28 +33,33 @@ ul,ol {
     align-items: center;
    
 }
-.menu ul {
-    display: flex;
-    gap: 48px;
-}
-.menu ul li a {
-    color: #EEEEEE;
-     font-family: "popping" sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    transition: 0.3s;
-}
-.menu ul li a:hover {
-    color: #FF6B2C;
-}
 .logo img {
     width: 100px;
-    height: auto;
+    line-height: auto;
     display: block;
     font-family:"Oswald" sans-serif;
     font-size: 24px;
     font-weight: 700;
+    color: EEEEEE;
 }
+.menu ul {
+    display: flex;
+    gap: 48px;
+}
+
+.menu ul a li {
+    color: #EEEEEE;
+    font-family: "popping", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.3s;
+}
+
+.menu ul a li:hover {
+    color: #FF6B2C;
+}
+
 /* heading part start here */
 
 /* banner part start here  */
@@ -65,54 +71,73 @@ ul,ol {
 
 .bannercontent {
     display: flex;
-    gap: 120px;
+    align-items: center;
     position: relative;
+    gap: 80px;
 }
 
 .bannerText {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 87px;
-} 
+    position: relative;
+    z-index: 2;
+    
+}
+
 .bannerText h1 {
     color: #EEEEEE;
-    font-family: "Popping" sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 96px;
     font-weight: 700;
-    line-height: 96px;
+    line-height: 1;
     margin-bottom: 48px;
-    width: 586Px;
+    width: 586px;
 }
 
 .bannerText h1 span {
-    color: #009db5;
-}
-.bannerbtn{
-    display: flex;
-    gap: 24px;
-}
-.bannerbtn a {
-    padding: 10px 32px;
-    border-radius: 24px;
-    align-items: center;
-    background: #00ADB5;
-     color: #eeeeee;
-    font-family: "Poppins" sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-  text-shadow: 0px 4px 4px #000;
+    display: block;
+    color: #00ADB5;
 }
 
-.bannerbtn a i{
-    margin-left: 6px;
+.bannerbtn {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.bannerbtn a {
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 24px;
+    background: #00ADB5;
+    color: #EEEEEE;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 0 4px 4px #000;
+    transition: 0.3s;
 }
 
 .bannerbtn a:hover {
     background: rgba(57, 62, 70, 0.75);
 }
 
+.bannerimg {
 
- .bannercontent .icon {
-    position:absolute;
-    bottom: 400px;
-
+    margin-top: 160px;
+    
 }
+
+.bannerimg img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bannercontent .icon {
+    position: absolute;
+    bottom: 320px;
+    left: 0;
+}
+
+/* Banner part end here */
