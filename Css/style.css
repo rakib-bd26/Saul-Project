@@ -73,7 +73,7 @@ ul,ol {
     display: flex;
     align-items: center;
     position: relative;
-    gap: 80px;
+    gap: 130px;
 }
 
 .bannerText {
@@ -139,5 +139,73 @@ ul,ol {
     bottom: 245px;
     left: 0;
 }
-
 /* Banner part end here */
+
+
+
+/* about part end here */
+#aboutpart{
+    padding-top: 135px;
+    padding-bottom: 201px;
+    background: #222831;
+  border-top: 2px solid #fafaf069;
+}
+
+
+.about{
+    display: flex;
+    align-items: center;
+    gap: 257px;
+   
+}
+.leftpart h2{
+    color: #EEEEEE;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 40px;
+    width: 389px
+    
+}
+
+.leftpart p{
+    color: #EEEEEE;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height:normal;
+    margin-bottom: 48px;
+    width: 389px;
+     left: 0;
+}
+.leftpart p span{
+    color: #EEEEEE;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height:normal;
+    margin-bottom: 48px;
+}
+.leftpartFlex{
+    display: flex;
+    gap: 13px;
+    position: relative;
+}
+    .vactorone{
+    position: absolute;
+    left:0px;
+    bottom: 250px;
+    }
+.vactortwo{
+    position: absolute;
+    left: 150px;
+    top:390px;
+    }
+.vactorthree{
+    position: absolute;
+    left: 336px;
+    bottom: 10px;
+    }
+
+/* about part end here */
