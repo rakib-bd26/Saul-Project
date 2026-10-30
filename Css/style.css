@@ -117,6 +117,11 @@ ul,ol {
     text-shadow: 0 4px 4px #000;
     transition: 0.3s;
 }
+.bannerbtn a i{
+
+    gap: 12px;
+}
+
 
 .bannerbtn a:hover {
     background: rgba(57, 62, 70, 0.75);
@@ -207,5 +212,104 @@ ul,ol {
     left: 336px;
     bottom: 10px;
     }
-
 /* about part end here */
+
+
+
+/*My recent works part Start here   */
+#myrecentworkpart{
+    padding-top: 288px;
+    padding-bottom: 269px;
+     background: #222831;
+     background-image: url(../images/my\ bg.png);
+}
+.recentwork h2{
+     color: #EEEEEE;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 40px;
+    width: 540px
+}
+
+.recentwork h2 span{
+     color: #00ADB5;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 32px;
+    background: #00ADB5;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin-bottom: 50px;
+}
+
+.btn:hover {
+    background: #222831;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.cadeflex{
+    display: flex;
+       gap: 20px;
+}
+.cadeOne {
+    padding: 50px;
+       display: flex;
+    background: #393E46;
+    width: 425px;
+    align-items: center;
+    justify-content: center;
+}
+/*My recent works part End here   */
+
+
+/*Got project part East here   */
+#gotprojectpart{
+    padding-top: 106px;
+    padding-bottom: 258px;
+    background: #222831;
+}
+
+.contantflex{
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+
+.leftpart h2{
+    color: #EEEEEE;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 90px;
+    margin-bottom: 40px;
+    width: 600px
+
+}
+.leftpart h2 span{
+     color: #00ADB5;
+}
+.leftpart img{
+    margin-left: 230px;
+}
+.gotvectot{
+    position: absolute;
+    top: 290px;
+    left: -190px;
+}
+/*Got project part End here   */
+
