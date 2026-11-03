@@ -282,7 +282,7 @@ ul,ol {
 #gotprojectpart {
     padding: 258px 0 258px;
     background: #222831;
-    font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
 
@@ -290,22 +290,20 @@ ul,ol {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 48px;
 }
 
 /* Left Part */
 .gotleftpart {
-    width: 50%;
     position: relative;
 }
 
 .gotleftpart h2 {
     width: 600px;
     color: #FFFFFF;
+     font-family: 'Poppins', sans-serif;
     font-size: 64px;
     font-weight: 700;
-    line-height: 1.3;
-    margin-bottom: 30px;
+    line-height: 80px;
 }
 
 .gotleftpart h2 span {
@@ -313,25 +311,22 @@ ul,ol {
 }
 
 .gotleftpart  img {
-    display: block;
     margin-left: 220px;
 }
 
 
 .gotvectot img {
-     position: absolute;
-     width: 113px;
+    position: absolute;
+   width: 113px;
     height: 170px;
-    right: 544px;
-   top: 268px;
+    right: 470px;
+    top: 214px;
 }
 
 /* Right Contact Form */
 .rightpartcontact {
-    font-family: 'Poppins', sans-serif;
     width: 600px;
     height: 508px;
-    padding: 30px;
 } 
 
 .contact-from {
@@ -341,33 +336,33 @@ ul,ol {
 /* Name and Email Row */
 .input-row {
     display: flex;
-    gap: 20px;
-    margin-bottom: 25px;
+    gap: 24px;
+    margin-bottom:24px;
 }
 
 .input-group {
-    flex: 1;
-    min-width: 0;
-    display: flex;
-    flex-direction: column;
-}
+     display: flex; 
+     flex-direction: column; 
+} 
 
 .input-group label {
     color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 /* Name and Email Inputs */
 .input-group input {
     width: 100%;
-    padding: 16px 208px 16px 24px;
+    /* height: auto; */
+    padding: 16px 200px 16px 24px;
     box-sizing: border-box;
     background: #393E46;
     border: 1px solid transparent;
     border-radius: 15px;
-    color: #a89f9f;  
+    color: #EEEEEE;  
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -375,23 +370,22 @@ ul,ol {
     transition: 0.3s;
 }
 
-.input-group input:focus,
-.input-group textarea:focus {
-    border-color: #222831;
-}
 
 /* Placeholder */
 .input-group input::placeholder,
 .input-group textarea::placeholder {
   background: #393E46;
-    font-size: 15px;
-    font-weight: 400;
+      font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height:auto;
 }
 
 /* Message Field */
-.massage-group {
-    margin-bottom: 25px;
-}
+ .massage-group {
+    margin-bottom: 24px;
+    
+} 
 
 .input-group textarea {
     width: 100%;
@@ -400,7 +394,7 @@ ul,ol {
     background: #393E46;
     border: 1px solid transparent;
     border-radius: 8px;
-    color: #a89f9f;
+    color: #EEEEEE;
  font-family: 'Poppins', sans-serif;
     font-size: 16px;
     outline: none;
@@ -413,11 +407,11 @@ ul,ol {
     align-items: center;
     gap: 15px;
     padding: 16px 24px;
-    background: #222831;
+    background: #393E46;
     color: #FFFFFF;
     border: none;
     border-radius: 20px;
-    font-family: inherit;
+         font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
@@ -432,5 +426,15 @@ ul,ol {
 .sent-btn span {
     font-size: 20px;
     
+}
+.rightpartcontact .mail img{
+    position: absolute;
+    left: 1765px;
+    top: 795px;
+}
+.rightpartcontact .keyboard img{
+    position: absolute;
+    left: 1552px;
+     top: 77px;
 }
 /* Got project End here */
