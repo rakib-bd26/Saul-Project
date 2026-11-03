@@ -438,3 +438,99 @@ ul,ol {
      top: 77px;
 }
 /* Got project End here */
+
+
+/* Footer Part Start Here*/
+#footerpart {
+    background: #222831;
+    padding: 100px 0 48px;
+    color: #EEEEEE;
+    position: relative;
+    border-top: 2px solid #bdbdbd28;
+}
+
+
+/* Footer Menu */
+.footerMenu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+
+.footerMenu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+   
+}
+
+.footerMenu ul li a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.footerMenu ul li a:hover {
+    color: #00adb5;
+}
+
+/* Social Media Icons */
+.footerSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 35px;
+}
+
+.footerSocial a {
+    width: 48px;
+    height: 48px;
+    background: #393E46;
+    color: #EEEEEE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footerSocial a:hover {
+    background: #00adb5;
+}
+
+/* Footer Bottom */
+.footerBottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footerBottom p {
+    color: #EEEEEE;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+  font-weight: 400;
+}
+
+.footerBottom p a {
+    color: #bdbdbd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footerBottom p a:hover {
+    color: #00adb5;
+}
+
+
+/* Footer Part End Here */
